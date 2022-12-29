@@ -45,6 +45,7 @@ while ((a < n) and not flag):
             p = NOD(b_k, n)
         if flag:
             break
+     a = a + 1
 
 if flag:
     print(p)
